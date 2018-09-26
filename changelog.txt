@@ -1,0 +1,31 @@
+================
+v00.00.001
+================
+Creation of the datapack and mcfunction files.
+
+================
+v00.00.002
+================
+Self installing, installation success check, and unistallation added.
+Added objective rda.version
+Added objective rda.minversion
+Added objective rda.blockID
+Added objective rda.energy
+Added objective rda.e-buffer
+Added objective rda.e-max
+Added objective rda.e-calc
+Added objective rda.fluid
+Added objective rda.fluidID
+Added objective rda.f-buffer
+Added objective rda.f-max
+Added objective rda.f-calc
+Added objective rda.progress
+Added objective rda.headID
+Added objective rda.chestID
+Added objective rda.legID
+Added objective rda.bootsID
+Added objective rda.handID
+Added objective rda.offhandID
+Added objective rda.status
+Added objective rda.installed
+Added objective rda.installing

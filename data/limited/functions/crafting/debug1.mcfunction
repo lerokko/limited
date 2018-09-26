@@ -1,0 +1,1 @@
+execute if score $RDA rda.adv_mode matches 0.. at @e[scores={rda.blockID=1}] if block ~ ~ ~ minecraft:dropper{Items: [{Slot: 0b, id: "minecraft:bedrock", Count: 1b}]} run data merge block ~ ~ ~ {Items: [{Slot: 0b, id: "minecraft:clock", Count: 1b, tag: {rda.isBlock: 1b, rda.blockID: 1s}}]}

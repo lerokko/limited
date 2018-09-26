@@ -1,0 +1,3 @@
+say This is the initial relase. Nothing to update. Remember if you want to update your version of RDA you need to disable this pack, stop minecraft, delete the current RDA pack from the folder, WITHOUT uninstalling it(!), paste the new version, start minecraft, and enable the NEWER version. THEN run /function limited:update NOT the install function.
+
+#in the furute this will contain /function limited:install
