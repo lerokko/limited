@@ -1,4 +1,3 @@
-say custom
 #calculate momentary damage dealt by players
 execute as @a run scoreboard players operation @s rda.dmg_dealt = @s rda.dDealtTotal
 execute as @a run scoreboard players operation @s rda.dmg_dealt -= @s rda.dDealtLast
@@ -19,7 +18,7 @@ execute store result score @a rda.playerLevel run data get entity @s XpLevel
 #store DeathTime in rda.playerLimbo
 execute store result score @a rda.playerLimbo run data get entity @s DeathTime
 
-#store DeathTime in rda.playerLimbo
+#store DeathTime in rda.playerAir
 execute store result score @a rda.playerAir run data get entity @s Air
 
 #handle rda.dead and rda.despawned
@@ -31,6 +30,6 @@ execute as @a[scores={rda.playerLimbo=0},tag=rda.dead] run tag @s add rda.respaw
 execute if @p[tag=rda.respawned] run function #minecraft:player_respawned
 
 #TODO
-#AbsorptionAmount: 0.0f, FallDistance: 0.0f, foodSaturationLevel: 0.0f, Dimension: 0, Fire, HurtTime: 0s, food, custm jump, mob kills, snkea time, drop, time sincce last death
+#AbsorptionAmount: 0.0f, FallDistance: 0.0f, foodSaturationLevel: 0.0f, Dimension: 0, Fire, HurtTime: 0s, food, custm jump, mob kills, snkea time, drop, time since last death
 #tags
 #Sleeping: 0b, OnGround: 1b

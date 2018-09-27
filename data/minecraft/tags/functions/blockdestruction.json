@@ -1,5 +1,6 @@
 {
  "values": [
- "limited:machines/crafter/destruction"
+ "limited:machines/crafter/destruction",
+ "limited:machines/debug_processor/destruction"
  ]
 }

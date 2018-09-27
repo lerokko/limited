@@ -1,4 +1,3 @@
-say loaded
 #Unavoidable running of these to to initialize install check
 scoreboard objectives add rda.installed dummy
 

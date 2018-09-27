@@ -1,7 +1,6 @@
-say root
 #TODO Make this recursive
 
-#TODO what the hell does this do? I forgot what this line is for
+#Other packs can use this score to swap + with - and vice versa
 execute unless score $RDA rda.status matches -1 run scoreboard players set $RDA rda.status -1
 
 scoreboard players set $RDA rda.modulo 2

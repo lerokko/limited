@@ -1,2 +1,1 @@
-
 #THIS IS A DUMMY. THIS FUNCTION DOES NOTHING ITS JUST THERE TO MAKE autocompleting the namespace easier. The convention demands to NOT put anything in this function that you want to call with this datapack. Other datapacks may call this function to check if you pack is ENABLED, so if you want to detect (for whatever reason) if or how often another dtapack checked if your datapack is enabled then you can track this inside this function here with a scoroboard.

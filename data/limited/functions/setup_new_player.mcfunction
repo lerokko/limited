@@ -1,4 +1,3 @@
-say setup
 execute as @p[tag=!rda.setup] run tag @s add rda.setting_up
 execute as @p[tag=rda.setting_up] run scoreboard players operation @s rda.version = $RDA rda.version
 execute as @p[tag=rda.setting_up] run scoreboard players operation @s rda.PlayerID = $RDA rda.PlayerID

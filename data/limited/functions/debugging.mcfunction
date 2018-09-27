@@ -1,3 +1,2 @@
-say debugging
 #execute as @e[type=item,nbt={Item: {id: "minecraft:bedrock", Count: 1b, Damage: 0s}}] run data merge entity @s {Item: {id: "minecraft:wooden_axe", Count: 1b, tag: {lim_block:1s, ench: [{lvl: 5, id: 62}], Unbreakable: 1, HideFlags: 5}, Damage: 0s}}
 #execute as @a if entity @s[tag=rda.debugging,nbt={Inventory:[{id:"minecraft:bedrock",tag{display:{Name:"{\"text\":\"rda.block 001\"}"}}}]}] run
