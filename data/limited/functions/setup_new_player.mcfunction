@@ -25,5 +25,6 @@ execute if entity @a[tag=rda.debug] run say Setup core player values
 execute as @p[tag=rda.setting_up] run function #minecraft:setup_new_player
 execute if entity @a[tag=rda.debug] run say Setup core player values
 execute as @p[tag=rda.setting_up] run tag @s add rda.setup
+function #minecraft:setup_new_player
 execute as @p[tag=rda.setting_up] run tag @s remove rda.setting_up
 execute if entity @p[tag=!rda.setup] run function limited:setup_new_player
