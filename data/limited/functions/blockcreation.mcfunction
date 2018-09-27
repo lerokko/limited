@@ -30,7 +30,11 @@ tag @e[type=item_frame,tag=rda.protoframe] remove rda.protoblock
 #This tag calls the creation functions of all datapacks. Each datapack checks if the protoblock belongs to it.
 function #minecraft:blockcreation
 
-tag @e[tag=rda.protoblock] remove rda.protoblock
+#Detects if any protoblocks were not assigned and throws error message
+execute store success score $RDA rda.installed run tag @e[tag=rda.protoblock] add rda.bugged
+execute if score $RDA rda.installed matches 1.. at @e[tag=rda.protoblock] run say Failed to finalize block. The affected entity has been tagged with rda.bugged. ERROR CODE 00006
+execute if score $RDA rda.installed matches 1.. run tag @e[tag=rda.protoblock] remove rda.protoblock
+scoreboard players set $RDA rda.installed 1
 kill @e[type=item_frame,tag=rda.protoframe]
 
 #TODO also make the function throw an error if the id is not 0 but still not assigend by any datapack. do the same as in error code 00005
