@@ -21,4 +21,7 @@ execute if entity @e[tag=!rda.block,tag=!rda.protoblock,type=item_frame,nbt={Ite
 
 function limited:genericblocktick
 
+#the display needs to be updated after the machines have been updated (ticked)
+execute if entity @e[tag=rda.update-disp,type=armor_stand,limit=1] run function limited:updatedisplay
+
 #TODO multiblock validation method(s)
