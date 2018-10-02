@@ -1,5 +1,5 @@
 #say destroy processor debug
-#dont forget to add this to the #minecraft:genericblockdestruction tag of this datapack and or to the #minecraft:genericblockdestruction tag.
+#dont forget to add this to the #minecraft:specialblockdestruction tag of this datapack and or to the #minecraft:genericblockdestruction tag.
 
 #checks if the macine no longer has valid blocks at its location
 execute as @e[type=armor_stand,scores={rda.blockID=2}] positioned as @s if block ~1 ~ ~ minecraft:lava run tag @s add rda.removeblock
