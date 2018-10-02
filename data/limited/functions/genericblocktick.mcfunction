@@ -1,3 +1,8 @@
+#
+#called by limited:conroot using:
+#function limited:genericblocktick
+#
+
 #calls functions to check if a block needs to be disassembled
 execute as @e[type=armor_stand,tag=rda.drop-destroy] positioned as @s unless block ~ ~ ~ minecraft:dropper run tag @s add rda.removeblock
 execute as @e[type=armor_stand,tag=rda.disp-destroy] positioned as @s unless block ~ ~ ~ minecraft:dispenser run tag @s add rda.removeblock

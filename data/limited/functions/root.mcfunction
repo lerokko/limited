@@ -1,3 +1,7 @@
+#
+#called by #minecraft:tick
+#
+
 #TODO Make this recursive
 
 #Other packs can use this score to swap + with - and vice versa

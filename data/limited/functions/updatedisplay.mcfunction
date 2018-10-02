@@ -1,3 +1,8 @@
+#
+#called by limited:conroot using:
+#execute if entity @e[tag=rda.update-disp,type=armor_stand,limit=1] run function limited:updatedisplay
+#
+
 #TODO make this more flexible and map 0-100% to all progress durations. This is just a proof of concept
 execute as @e[tag=rda.update-disp,type=armor_stand,scores={rda.progress=0}] run data merge entity @s {CustomName:"{\"text\":\"..........\",\"color\":\"green\"}"}
 execute as @e[tag=rda.update-disp,type=armor_stand,scores={rda.progress=1..5}] run data merge entity @s {CustomName:"{\"text\":\"|.........\",\"color\":\"green\"}"}

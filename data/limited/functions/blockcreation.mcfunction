@@ -1,3 +1,8 @@
+#
+#called by limited:conroot using:
+#execute if entity @e[tag=!rda.block,tag=!rda.protoblock,type=item_frame,nbt={Item: {tag: {rda.isBlock: 1b}}},limit=1] run function limited:blockcreation
+#
+
 #say blockcreate
 #Get the items blockID
 tag @e[tag=!rda.block,tag=!rda.protoblock,type=item_frame,nbt={Item: {tag: {rda.isBlock: 1b}}}] add rda.protoblock

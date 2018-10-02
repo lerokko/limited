@@ -1,3 +1,8 @@
+#
+#called by limited:load using:
+#execute if score $RDA rda.installed matches 0 run function limited:install
+#
+
 say INSTALLING
 #scoreboards that are needed go here
 

@@ -1,3 +1,8 @@
+#
+#called by limited:uninstall using:
+#execute if score $RDA rda.adv_mode matches 1.. run function limited:douninstall
+#
+
 say UNINSTALLING
 #core objectives
 scoreboard objectives remove rda.version

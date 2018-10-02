@@ -1,3 +1,8 @@
+#
+#called by limited:conroot using:
+#execute if entity @p run function limited:custom_objectives_tracking
+#
+
 #calculate momentary damage dealt by players
 execute as @a run scoreboard players operation @s rda.dmg_dealt = @s rda.dDealtTotal
 execute as @a run scoreboard players operation @s rda.dmg_dealt -= @s rda.dDealtLast

@@ -1,3 +1,6 @@
+#
+#called by #minecraft:tick
+#
 
 #rda.setup is used to mark player that have been setup correctly. If your function is at some point called by the limited:conroot function you do not need to use @p[tag=rda.setup] to target all players @p is enough because the limited:setup_new_player function runs before everything else and all players should have the rda.setup tag at that point. If you function is called via #minecraft:tick or #minecraft:tickXX its recommended to use @p[tag=rda.setup]. If you call you function via #minecraft:playertick its also suffcient to use only @p aqs it is always called after limited:setup_new_player (every tick).
 
