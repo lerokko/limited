@@ -1,6 +1,7 @@
 {
  "values": [
  "limited:machines/crafter/creation",
+ "limited:machines/switch/creation",
  "limited:machines/debug_processor/creation"
  ]
 }

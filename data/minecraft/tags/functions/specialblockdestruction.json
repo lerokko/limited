@@ -1,5 +1,6 @@
 {
  "values": [
- "limited:machines/debug_processor/special_destruction"
+ "limited:machines/debug_processor/special_destruction",
+ "limited:machines/switch/special_destruction"
  ]
 }
